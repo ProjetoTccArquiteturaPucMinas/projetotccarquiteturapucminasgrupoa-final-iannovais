@@ -1,6 +1,7 @@
 package com.example.marketplace.model;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 public class ItemCarrinho {
 
@@ -13,7 +14,9 @@ public class ItemCarrinho {
     }
 
     public BigDecimal calcularSubtotal() {
-        return produto.getPreco().multiply(BigDecimal.valueOf(quantidade));
+        return produto.getPreco()
+                .multiply(BigDecimal.valueOf(quantidade))
+                .setScale(2, RoundingMode.HALF_UP);
     }
 
     public Produto getProduto() {

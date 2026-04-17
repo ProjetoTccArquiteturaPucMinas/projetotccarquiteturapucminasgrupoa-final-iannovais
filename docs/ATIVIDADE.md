@@ -4,9 +4,9 @@
 Este projeto faz parte de um experimento acadêmico para avaliar esforço de compreensão e esforço de modificação em diferentes arquiteturas de software.
 
 ## Sua tarefa
-1. Identificar a arquitetura usada no projeto.
-2. Justificar com base na estrutura do código.
-3. Identificar a classe que deve ser alterada
+1. Identificar a arquitetura usada no projeto. -> Arquitetura em camadas, MVC
+2. Justificar com base na estrutura do código. -> Pois há controllers, lógica de aplicação nos services, repositórios, modelos em model e views em index.html.
+3. Identificar a classe que deve ser alterada -> Carrinho
 4. Implementar a feature de cálculo de descontos no carrinho.
 5. Realizar testes de ponta a ponta para validar a implementação.
 6. Executar os testes até que todos passem.
