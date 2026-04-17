@@ -1,6 +1,6 @@
 # Sistema de Cálculo de Descontos para Marketplace
 
-## Seu Nome: 
+## Seu Nome: Ian dos Reis Novais
 
 ## Visão Geral do Projeto
 
